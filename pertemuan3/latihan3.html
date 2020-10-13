@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>pseudo class</title>
+    <style>
+        a:link{
+            color: chartreuse;
+        }
+        a:hover{
+            font-size: large;
+            color: crimson;
+        }
+        a:active{
+            color: deeppink;
+        }
+        a:visited{
+            color: limegreen;
+        }
+        /* li:first-child a{
+            display: none;
+        }
+        li:last-child a{
+            color: chocolate;
+        } */
+        li:nth-child(odd) a{
+            color: darkorange;
+        }
+        li:nth-child(2n) a{
+            color: darkred;
+        }
+        li:nth-child(2n+1) a{
+            color: darkslategrey;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">link ke 1</a></li>
+        <li><a href="1">link ke 1</a></li>
+        <li><a href="2">link ke 1</a></li>
+        <li><a href="3">link ke 1</a></li>
+        <li><a href="4">link ke 1</a></li>
+        <li><a href="#">link ke 1</a></li>
+        <li><a href="1">link ke 1</a></li>
+        <li><a href="2">link ke 1</a></li>
+        <li><a href="3">link ke 1</a></li>
+        <li><a href="4">link ke 1</a></li>
+    </ul>
+</body>
+</html>

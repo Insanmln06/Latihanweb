@@ -1,0 +1,62 @@
+.kotak{
+    margin: 0 auto;
+    padding: 50px auto;
+    width: 400px;
+    height: 400px;
+    background: #3b5998;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+.fatas{
+    width: 130px ;
+    height: 320px;
+    left: 180px;
+    top: 80px;
+    background: #fff;
+    position: relative;
+    border-top-left-radius: 90px;
+}
+.fpot{
+    background: #3b5998 ;
+    width: 100px;
+    height: 260px;
+    top: -180px;
+    left: 250px;
+    position: relative;
+    border-top-left-radius: 30px;
+}
+.fbawah{
+    width: 160px;
+    height: 60px;
+    top: -380px;
+    left: 130px;
+    background: #fff;
+    position: relative;
+
+}
+.fixbawah{
+    width: 30px;
+    height: 61px;
+    top: -442px;
+    left: 270px;
+    position: relative;
+    background: #fff;
+    transform: rotate(7deg);
+}
+.fixbawah1{
+    width: 30px;
+    height: 10px;
+    top: -511px;
+    left: 270px;
+    position: relative;
+    background: #3b5998;
+}
+.fixbawah2{
+    width: 30px;
+    height: 10px;
+    top: -451px;
+    left: 270px;
+    position: relative;
+    background: #3b5998;
+}
