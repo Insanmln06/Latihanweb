@@ -1,0 +1,156 @@
+* {
+    margin : 0px;
+    padding : 0px;
+    scroll-behavior: smooth;
+}
+.navbar{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    padding-top: 10px;
+    height: 5vh;
+
+}
+
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+.navbar ul{
+    float: right;
+}
+
+.navbar ul li a{
+text-decoration: none;
+color: black;
+font-size: 14px;
+
+}
+
+#jamal{
+    height: 80vh;
+    background-color: black;
+    width: 100%;
+    background-repeat:no-repeat ;
+    background-image :url(Asset1.png) ;
+    background-size: 450px;
+}
+
+#jamal h1{
+    color: white;
+    font-size: 100px;
+    padding-top: 120px;
+    padding-left: 400px;
+    font-family:  'Arial Narrow Bold', sans-serif;
+}
+
+#jamal p{
+    
+    color: white;
+    padding-top: 20px;
+    width:400px;
+    font-size: 14px;
+    margin-left: 430px;
+    padding-top: 10px;
+}
+
+#jamal a {
+    margin-left: 450px;
+}
+ #jamal button{
+    box-sizing: border-box;
+    margin-top: 15px;
+    width: 140px;
+    height: 30px;
+    color: white;
+    background-color: red;
+    font-size: 15px;
+    margin-left: 70px;
+ }
+
+   .bawah {
+    margin-top: 70px;
+    float: right;
+ }
+
+ #konten{
+    padding-top: 40px;
+    height: 120vh;
+    background-color: black;
+    width: 100%;
+    
+ }
+ #konten h1{
+     text-align: center;
+     font-size: 30px;
+     color: white;
+ }
+
+#konten .img {
+  grid-template-columns: repeat(auto-fill, min-max( 250px , 250px));
+  padding: 80px;
+  margin-right: 80px;
+  justify-content: center;
+}
+#konten .img img{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    grid-gap: 40px;
+}   
+
+#gambar1{
+    color: white;
+    margin: 0px 100px;
+    display: grid;
+    grid-gap: 10px;
+}
+
+#laptop{
+    display: flex;
+    height: 80vh;
+    background-color: black;
+}
+
+#laptop .gambar1 img{
+    width: 600px;
+    height: 400px;
+    padding-left: 10%;
+    margin-top: 0px;
+}
+
+ .Teks1 p{
+    color: white;
+    font-size: 15px;
+    padding-top: 0px;
+    margin-left: 90px;
+    margin-right: 50px;
+ }
+
+ #laptop1{
+    display: flex;
+    height: 80vh;
+    background-color: black;
+}
+
+#laptop1 .Teks2{
+margin-top: 80px;
+padding-left:40px;
+padding-right: 100px;
+
+}
+
+#laptop1 .gambar2 img{
+width: 600px;
+height: 400px;
+padding-right: 10px;
+}
+
+ .Teks2 p{
+    color: white;
+    font-size: 15px;
+    padding-top: 0px;
+}
