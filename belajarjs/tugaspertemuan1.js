@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
-        function Check(nilai) {
+function Check(nilai) {
     if (nilai <= 100 && nilai >= 79) {
         console.log("A");
     } else if  (nilai <= 78 && nilai >= 65) {
@@ -27,6 +18,3 @@ Check(69)
 Check(60)
 Check(30)
 Check(101)
-    </script>
-</body>
-</html>
